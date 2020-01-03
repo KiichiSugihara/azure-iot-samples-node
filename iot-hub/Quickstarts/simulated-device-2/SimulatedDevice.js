@@ -17,7 +17,7 @@ const chalk = require('chalk');
 // Using the Azure CLI:
 // az iot hub device-identity show-connection-string --hub-name {YourIoTHubName} --device-id MyNodeDevice --output table
 const config = require('../../config.js');
-var deviceConnectionString = config.iotHubConnectionString;
+var deviceConnectionString = config.iotHubDeviceConnectionString;
 
 // Using the Node.js Device SDK for IoT Hub:
 //   https://github.com/Azure/azure-iot-sdk-node
